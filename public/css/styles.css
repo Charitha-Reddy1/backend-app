@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.box{
+    margin: 5px;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius: 5px;
+    
+}
+.header{
+    background-color:aqua;
+    padding-left:33%
+}
+.footer{
+    background-color:aquamarine;
+    padding-left:30%
+}
