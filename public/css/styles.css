@@ -24,12 +24,9 @@
     text-align:center;
 }
 .img{
-    transform:scale(1.05);
-    transition:0.3s;
+
     width:320px;
     height:150px;
-    object-fit:cover;
-    border-radius:5px;
 }
 .header{
     background-color:aqua;
