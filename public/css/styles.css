@@ -10,14 +10,13 @@
     border-radius: 5px;
     background-color:white;
     width:400px;
+    height:400px;
 }
 .img{
     height:250px;
+    width:100%;
 }
 
-.img:hover{
-    transform:scale(1.05);
-}
 .header{
     background-color:aqua;
 }
