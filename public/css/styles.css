@@ -10,8 +10,6 @@
 .img{
     margin: 5px;
     padding: 5px;
-    border:1px solid gray;
-    border-radius: 5px;
     background-color:white;
     height:300px;
     width:300px; 
@@ -22,7 +20,7 @@
     border:1px solid gray;
     border-radius: 5px;
     background-color:white;
-    height:400px;
+    height:350px;
     width:300px; 
 }
 .header{
