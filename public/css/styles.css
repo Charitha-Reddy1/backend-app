@@ -13,11 +13,11 @@
 }
 .box{
     margin: 5px;
-    padding: 5px;
+    padding: 50px;
     border:1px solid gray;
     border-radius: 5px;
     background-color:white;
-    height:700px;
+    height:500px;
     width:300px; 
 }
 .header{
