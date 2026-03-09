@@ -13,12 +13,17 @@
     border:1px solid gray;
     border-radius: 5px;
     background-color:white;
-    height:300px;
-    width:400px;
+    height:auto;
+    width:350px;
+    text-align:center; 
+    
+    
 }
 .img{
-    height:100px;
-    width:500px;
+    height:150px;
+    width:100%;
+    display:block;
+    margin:auto;
 }
 .header{
     background-color:aqua;
