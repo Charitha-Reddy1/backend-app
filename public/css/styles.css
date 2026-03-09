@@ -10,6 +10,9 @@
     border-radius: 5px;
     background-color:white;
 }
+.img img{
+    height:250px;
+}
 
 .img:hover{
     transform:scale(1.05);
