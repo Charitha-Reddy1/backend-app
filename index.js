@@ -37,4 +37,4 @@ const startServer=async ()=>{
 });
 }
 
-startServer()
+startServer() //creates db connection b/w render and mongodb atlas server
