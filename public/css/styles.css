@@ -8,25 +8,8 @@
     background-position: center;
     
 }
-.box{
-    margin: 5px;
-    padding: 5px;
-    border:1px solid gray;
-    border-radius: 5px;
-    
-}
 
-.img{
-    width:100%;
-    height:200px;
-    object-fit:cover;
-    border-radius:8px;
-    transition:transform 0.3s ease;
-}
 
-.img:hover{
-    transform:scale(1.05);
-}
 .header{
     background-color:aqua;
 }
