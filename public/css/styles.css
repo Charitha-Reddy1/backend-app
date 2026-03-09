@@ -8,7 +8,9 @@
     padding: 5px;
     border:1px solid gray;
     border-radius: 5px;
-    
+    background-color:white;
+    width:400px;
+    height:400px;
 }
 .header{
     background-color:aqua;
