@@ -9,8 +9,9 @@
     border:1px solid gray;
     border-radius: 5px;
     background-color:white;
+    height:300px;
 }
-.img img{
+.img{
     height:250px;
 }
 
