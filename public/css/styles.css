@@ -19,10 +19,27 @@
     width:200px;
     height:auto;
 }
-.header{
-    background-color:aqua;
+
+*{
+    margin:0px;
 }
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(4, 95, 10);
+    color:white;
+    padding:10px;
+}
+
+.header li{
+    display:inline-block;
+    padding:5px;
+    font-size:20px;
+}
+
 .footer{
-    background-color:aquamarine;
-    padding-left:30%
+    background-color:silver;
+    /* padding-left:30%; */
+    padding:5px;
 }
