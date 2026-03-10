@@ -5,4 +5,32 @@ const getProducts=async (req,res)=>{
     res.render("products/index",{products});
 }
 
-export {getProducts}
+const addProduct=async (req,res)=>{
+    const prod=req.body;
+    await productModel.create(prod);
+    res.redirect("/products");
+}
+
+const addProductForm=async(req,res)=>{
+    res.render('products/add')
+}
+
+const deleteProduct=async(req,res)=>{
+    const id=req.params.id;
+    await productModel.findByIdAndDelete(id);
+    res.redirect("/products")
+}
+
+const editProductForm=async(req,res)=>{
+    const id=req.params.id;
+    const product=await productModel.findOne({_id:id});
+    res.render("products/edit",{product})
+}
+
+const saveProduct=async(req,res)=>{
+    const id=req.params.id;
+    await productModel.findByIdAndUpdate(id,req.body);
+    res.redirect("/products")
+}
+
+export {getProducts,addProduct,addProductForm,deleteProduct,editProductForm,saveProduct}
