@@ -8,10 +8,10 @@
 <body>
     <h2>Product Edit Form</h2>
     <form action="/products/<%= product._id %>/save" method="POST">
-        <p><input type='text' value='<%= product.name %>'></p>
-        <p><input type='text' value='<%= product.price %>'></p>
-        <p><input type='text' value='<%= product.desc %>'></p>
-        <p><input type='text' value='<%= product.imageUrl %>'></p>
+        <p><input type='text' name="name" value='<%= product.name %>'></p>
+        <p><input type='text' name="price" value='<%= product.price %>'></p>
+        <p><input type='text' name="desc" value='<%= product.desc %>'></p>
+        <p><input type='text' name="imageUrl" value='<%= product.imageUrl %>'></p>
         <button>Save</button>
     </form>
 </body>

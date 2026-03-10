@@ -24,12 +24,12 @@ const deleteProduct=async(req,res)=>{
 const editProductForm=async(req,res)=>{
     const id=req.params.id;
     const product=await productModel.findOne({_id:id});
-    res.render("products/edit",{product})
+    res.render("products/edit",{ product })
 }
 
 const saveProduct=async(req,res)=>{
     const id=req.params.id;
-    await productModel.findByIdAndUpdate(id,req.body);
+    await productModel.findByIdAndUpdate(id, req.body);
     res.redirect("/products")
 }
 
