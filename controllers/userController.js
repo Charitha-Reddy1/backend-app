@@ -2,8 +2,8 @@ import userModel from "../models/userModel.js"
 
 const getUsers=async (req,res)=>{
     const users=await userModel.find();
-    //res.render("products/index",{products});
-    res.json.users;
+    res.render("users/index",{users});
+    //res.json.users;
 }
 
 const addUser=async (req,res)=>{
@@ -25,7 +25,7 @@ const deleteUser=async(req,res)=>{
 const editUserForm=async(req,res)=>{
     const id=req.params.id;
     const user=await userModel.findOne({_id:id});
-    res.render("products/edit",{ user })
+    res.render("users/edit",{ user })
 }
 
 const saveUser=async(req,res)=>{

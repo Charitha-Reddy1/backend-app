@@ -4,8 +4,8 @@ import express from "express"
 const userRouter=express.Router()
 
 userRouter.get("/",getUsers)
-userRouter.get("/add",addUser)
-userRouter.post("/add",addUserForm)
+userRouter.post("/add",addUser)
+userRouter.get("/add",addUserForm)
 userRouter.get("/:id/delete",deleteUser)
 userRouter.get("/:id/edit",editUserForm)
 userRouter.post("/:id/save",saveUser)
