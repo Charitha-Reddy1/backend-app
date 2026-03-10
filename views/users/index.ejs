@@ -13,7 +13,7 @@
     <% users.forEach(user =>{%>
         <li><%= user.name %>-
             <%= user.email %>-
-            $<%= user.pass %>
+            <%= user.pass %>
             <a href="/users/<%= user._id %>/edit">Edit</a>
             <a href="/users/<%= user._id %>/delete">Delete</a>
         </li>
